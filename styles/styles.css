@@ -1,4 +1,53 @@
-/*
-img{
-    width: 200px;
-}*/
+/*algemene styling*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*achtergrond*/
+
+body {
+    background-image: url(images/achtergrond.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: verdana;
+}
+
+/*header*/
+
+header {
+    background-color: #253460;
+    height: 5rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header img {
+    height: 2rem;
+}
+
+h1 {
+    font-size: 1.6rem;
+}
+
+footer img {
+    width: 5rem;
+}
+
+footer {
+    background-color: #253460;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,32 @@
+main {
+    background-color: white;
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 4rem;
+    border-radius: 1rem;
+}
+
+main img {
+    width: 17rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+#sec {
+    color: #CD3641;
+    margin-top: 0.2rem;
+}
+
+#volg {
+    padding: 0.5rem 0;
+    border-color: grey;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    margin: 0.5rem 0;
+    border-width: 1px;
+}
